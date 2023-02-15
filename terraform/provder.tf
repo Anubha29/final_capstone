@@ -10,7 +10,7 @@ terraform {
     }
   }
 backend "s3"{
-  bucket = "upgrad-tfstate-file-capstone"
+  bucket = "upgrad-tfstate-file-capstone1"
   key = "terraform.tfstate"
   region = "us-east-1"
 }
